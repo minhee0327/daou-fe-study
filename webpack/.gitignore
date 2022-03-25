@@ -1,0 +1,7 @@
+# Project exclude paths
+/code-spliting/dist/
+/code-spliting/node_modules/
+/es6-modules/node_modules/
+/getting-started/dist/
+/getting-started/node_modules/
+/npm/node_modules/
