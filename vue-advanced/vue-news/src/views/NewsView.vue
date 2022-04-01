@@ -17,10 +17,12 @@ export default {
 		};
 	},
 	created() {
-		const vm = this;
+		// const vm = this;
+		console.log(this);
 		fetchNewsList()
 			.then(function (response) {
-				vm.users = response.data;
+				// vm.users = response.data;
+				console.log(this);
 			})
 			.catch(function (error) {
 				console.log(error);
