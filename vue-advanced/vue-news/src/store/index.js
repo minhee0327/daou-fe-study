@@ -20,6 +20,9 @@ export const store = new Vuex.Store({
 		fetchAsk(state) {
 			return state.asks;
 		},
+		fetchedItem(state) {
+			return state.item;
+		},
 	},
 	//api 호출은 actions
 	actions,

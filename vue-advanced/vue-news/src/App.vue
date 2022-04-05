@@ -2,7 +2,9 @@
 	<!-- url이 만약 news라면 newsComponent-->
 	<div id="app">
 		<tool-bar></tool-bar>
-		<router-view></router-view>
+		<transition>
+			<router-view></router-view>
+		</transition>
 	</div>
 </template>
 

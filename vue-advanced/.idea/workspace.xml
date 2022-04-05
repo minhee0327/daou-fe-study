@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a279505a-f656-4848-8b54-1edb625b8f6a" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/vue-news/src/store/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-news/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-news/src/store/mutations.js" afterDir="false" />
+    <list default="true" id="a279505a-f656-4848-8b54-1edb625b8f6a" name="Changes" comment="~dynamic route">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/src/views/AskView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/views/AskView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-news/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-news/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-news/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-news/src/views/ItemView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/views/ItemView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/src/views/JobViews.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/views/JobViews.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/src/views/NewsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/views/NewsView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/src/views/UserView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/views/UserView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +64,7 @@
       <updated>1648717818117</updated>
       <workItem from="1648717819578" duration="2915000" />
       <workItem from="1648792116539" duration="110000" />
-      <workItem from="1648792229679" duration="20626000" />
+      <workItem from="1648792229679" duration="24785000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1648792146584</created>
@@ -82,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648792146584</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="~dynamic route">
+      <created>1649113694741</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649113694741</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="~dynamic route" />
+    <option name="LAST_COMMIT_MESSAGE" value="~dynamic route" />
   </component>
 </project>
