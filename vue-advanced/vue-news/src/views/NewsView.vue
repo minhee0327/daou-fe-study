@@ -9,5 +9,8 @@ export default {
 	components: {
 		ListItem,
 	},
+	created() {
+		this.$store.dispatch('FETCH_NEWS');
+	},
 };
 </script>

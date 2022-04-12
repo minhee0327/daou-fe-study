@@ -9,5 +9,8 @@ import ListItem from '@/components/ListItem';
 export default {
 	name: 'JobViews',
 	components: { ListItem },
+	created() {
+		this.$store.dispatch('FETCH_JOBS');
+	},
 };
 </script>

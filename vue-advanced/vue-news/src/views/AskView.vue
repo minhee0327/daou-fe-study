@@ -23,8 +23,8 @@ export default {
 		//   return this.$store.state.ask;
 		// }
 	},
-	// created() {
-	// 	this.$store.dispatch('FETCH_ASKS');
-	// },
+	created() {
+		this.$store.dispatch('FETCH_ASKS');
+	},
 };
 </script>
