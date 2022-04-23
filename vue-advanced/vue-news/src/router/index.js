@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import NewsView from '@/views/NewsView';
 import AskView from '@/views/AskView';
+import JobViews from '@/views/JobViews';
 import UserView from '@/views/UserView';
 import ItemView from '@/views/ItemView';
 import createListView from '@/views/CreateListView';
@@ -17,18 +19,20 @@ export const router = new VueRouter({
 		{
 			path: '/news',
 			name: 'news',
-			// component: NewsView,
-			component: createListView('NewsView'),
+			component: NewsView,
+			// component: createListView('NewsView'),
 		},
 		{
 			path: '/ask',
 			name: 'ask',
-			component: createListView('AskView'),
+			component: AskView,
+			// component: createListView('AskView'),
 		},
 		{
 			path: '/jobs',
 			name: 'jobs',
-			component: createListView('JobsView'),
+			component: JobViews,
+			// component: createListView('JobsView'),
 		},
 		{
 			path: '/user',
