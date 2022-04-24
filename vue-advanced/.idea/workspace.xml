@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a279505a-f656-4848-8b54-1edb625b8f6a" name="Changes" comment="~ HoC 정리중">
-      <change afterPath="$PROJECT_DIR$/vue-news/src/mixins/ListMixin.js" afterDir="false" />
+    <list default="true" id="a279505a-f656-4848-8b54-1edb625b8f6a" name="Changes" comment="~ Mixin 실습 끝">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-news/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/store/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/src/views/AskView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/views/AskView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/src/views/CreateListView.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/views/CreateListView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/src/views/JobViews.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/views/JobViews.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-news/src/views/NewsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/views/NewsView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +70,7 @@
       <workItem from="1648717819578" duration="2915000" />
       <workItem from="1648792116539" duration="110000" />
       <workItem from="1648792229679" duration="27930000" />
-      <workItem from="1649285321470" duration="42927000" />
+      <workItem from="1649285321470" duration="47767000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1648792146584</created>
@@ -169,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650582016481</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="~ Mixin 실습 끝">
+      <created>1650689994340</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650689994340</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +201,7 @@
     <MESSAGE value="~ Spinner.vue 추가.." />
     <MESSAGE value="~ HoC 추가" />
     <MESSAGE value="~ HoC 정리중" />
-    <option name="LAST_COMMIT_MESSAGE" value="~ HoC 정리중" />
+    <MESSAGE value="~ Mixin 실습 끝" />
+    <option name="LAST_COMMIT_MESSAGE" value="~ Mixin 실습 끝" />
   </component>
 </project>

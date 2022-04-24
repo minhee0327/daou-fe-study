@@ -9,33 +9,33 @@ import {
 
 export default {
 	// FETCH_NEWS(context) {
-	// 	fetchNewsList()
+	// 	return fetchNewsList()
 	// 		.then(response => context.commit('SET_NEWS', response.data))
 	// 		.catch(error => console.log(error));
 	// },
 	// // 비 구조화 할당 (destructuring)
 	// FETCH_JOBS({ commit }) {
-	// 	fetchJobsList()
+	// 	return fetchJobsList()
 	// 		.then(({ data }) => commit('SET_JOBS', data))
 	// 		.catch(error => console.log(error));
 	// },
 	// FETCH_ASKS({ commit }) {
-	// 	fetchAskList()
+	// 	return fetchAskList()
 	// 		.then(({ data }) => commit('SET_ASKS', data))
 	// 		.then(error => console.log(error));
 	// },
 	FETCH_USER({ commit }, name) {
-		fetchUserInfo(name)
+		return fetchUserInfo(name)
 			.then(({ data }) => commit('SET_USER', data))
 			.catch(error => console.log(error));
 	},
 	FETCH_ITEM({ commit }, item) {
-		fetchItem(item)
+		return fetchItem(item)
 			.then(({ data }) => commit('SET_ITEM', data))
 			.catch(error => console.log(error));
 	},
 	FETCH_LIST({ commit }, pageName) {
-		fetchList(pageName)
+		return fetchList(pageName)
 			.then(({ data }) => commit('SET_LIST', data))
 			.catch(error => console.log(error));
 	},
