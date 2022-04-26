@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a279505a-f656-4848-8b54-1edb625b8f6a" name="Changes" comment="~ Promise Chaining 에 따른 비동기 문제 해결">
+    <list default="true" id="a279505a-f656-4848-8b54-1edb625b8f6a" name="Changes" comment="~ router navigation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-news/src/mixins/ListMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/mixins/ListMixin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-news/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-news/src/views/AskView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/views/AskView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-news/src/views/NewsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-news/src/views/NewsView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +73,7 @@
       <workItem from="1648717819578" duration="2915000" />
       <workItem from="1648792116539" duration="110000" />
       <workItem from="1648792229679" duration="27930000" />
-      <workItem from="1649285321470" duration="49695000" />
+      <workItem from="1649285321470" duration="52071000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1648792146584</created>
@@ -178,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650805906660</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="~ router navigation">
+      <created>1650896817393</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650896817393</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +220,7 @@
     <MESSAGE value="~ HoC 정리중" />
     <MESSAGE value="~ Mixin 실습 끝" />
     <MESSAGE value="~ Promise Chaining 에 따른 비동기 문제 해결" />
-    <option name="LAST_COMMIT_MESSAGE" value="~ Promise Chaining 에 따른 비동기 문제 해결" />
+    <MESSAGE value="~ router navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="~ router navigation" />
   </component>
 </project>

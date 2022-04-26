@@ -13,19 +13,19 @@ export default {
 	name: 'AskView',
 	components: { ListItem },
 	mixins: [ListMixin],
-	computed: {
-		// #3
-		// ...mapGetters(['fetchAsk']),
-		// #2
-		// ...mapState({
-		// 	ask: state => state.ask,
-		// }),
-		//
-		// #1
-		// ask(){
-		//   return this.$store.state.ask;
-		// }
-	},
+	// computed: {
+	// #3
+	// ...mapGetters(['fetchAsk']),
+	// #2
+	// ...mapState({
+	// 	ask: state => state.ask,
+	// }),
+	//
+	// #1
+	// ask(){
+	//   return this.$store.state.ask;
+	// }
+	// },
 	// created() {
 	// 	bus.$emit('start:spinner');
 	// 	setTimeout(() => {
