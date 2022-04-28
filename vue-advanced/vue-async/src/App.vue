@@ -12,11 +12,12 @@
 
 <script>
 import axios from 'axios';
+import { handleException } from './utils/handler';
 
 export default {
   name: 'App',
-  data(){
-    return{
+  data() {
+    return {
       items: []
     }
   },
@@ -26,21 +27,27 @@ export default {
           .then(response => {
             if (response.data.id === 1) {
               axios.get('https://jsonplaceholder.typicode.com/todos')
-                .then(
-                    response => {
-                      this.items = response.data;
-                    }
-                )
-                .catch()
+                  .then(
+                      response => {
+                        this.items = response.data;
+                      }
+                  )
+                  .catch()
             }
           })
           .catch(error => console.log(error))
     },
-    async loginUser(){
-      const response = await axios.get('https://jsonplaceholder.typicode.com/users/1');
-      if(response.data.id === 1){
-        const list = await axios.get('https://jsonplaceholder.typicode.com/todos')
-        this.items = list.data;
+    async loginUser() {
+      try {
+        const response = await axios.get('https://jsonplaceholder.typicode.com/users/1');
+        if (response.data.id === 1) {
+          const list = await axios.get('https://jsonplaceholder.typicode.com/todos')
+          this.items = list.data;
+        }
+      } catch (error) {
+        // utils/handler.js에 error 처리의 공통화를 가능하게 함.
+        handleException(error);
+        console.log(error)
       }
     }
   }
