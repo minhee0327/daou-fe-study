@@ -1,8 +1,8 @@
 {
-  "compilerOptions": {
+  "compilerOptions": {//ts -> js 어떤 세부 옵션을 주는가?
     "allowJs": true,
     "checkJs": true,
-    "noImplicitAny": false
+    "noImplicitAny": true
   },
   "include": ["./src/**/*"]
 }
