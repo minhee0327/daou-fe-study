@@ -105,3 +105,8 @@ class AddressBook {
 }
 
 new AddressBook();
+
+const div = document.querySelector('div') as HTMLDivElement;
+if (div) {
+  div.innerText;
+}
