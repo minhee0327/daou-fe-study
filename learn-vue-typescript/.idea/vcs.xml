@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue-advanced" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/vue-to-typescript" vcs="Git" />
   </component>
 </project>
