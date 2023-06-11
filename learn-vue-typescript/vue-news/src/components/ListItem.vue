@@ -53,9 +53,9 @@ export default Vue.extend({
     //   return this.items[0].time_ago.concat(", 2023");
     // },
     //computed 는 꼭 반환타입을 넣어줄것!!!
-    listItems(): any {
-      return this.$store.getters.fetchedList;
-    },
+    // listItems(): any {
+    //   return this.$store.getters.fetchedList;
+    // },
   },
 
   methods: {
