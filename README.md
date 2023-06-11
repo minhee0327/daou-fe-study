@@ -16,7 +16,7 @@
 6. **[Webpack](https://github.com/minhee0327/daou-fe-study/tree/master/webpack)**: [프론트엔드 개발자를 위한 웹팩](https://www.inflearn.com/course/%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%9B%B9%ED%8C%A9)
 7. **[learn-typescript](https://github.com/minhee0327/daou-fe-study/tree/master/learn-typescript)**: [타입스크립트 입문 - 기초부터 실전까지](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8)
 8. **[Learn-vue-typescript](https://github.com/minhee0327/daou-fe-study/tree/master/learn-vue-typescript)**: [vue.js + typescript 완벽가이드](https://www.inflearn.com/course/vue-ts)
-9. **leanr-nuxt:** [Nuxt.js 시작하기](https://www.inflearn.com/course/%EB%84%89%EC%8A%A4%ED%8A%B8-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
+9. **learn-nuxt:** [Nuxt.js 시작하기](https://www.inflearn.com/course/%EB%84%89%EC%8A%A4%ED%8A%B8-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
 
 
 
