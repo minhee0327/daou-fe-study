@@ -8,6 +8,7 @@
 
 <script lang="ts">
 import Vue from "vue";
+import { VueEvent } from "@/types/index";
 
 export default Vue.extend({
   props: {
@@ -17,8 +18,8 @@ export default Vue.extend({
     },
   },
   methods: {
-    handleInput(event: InputEvent) {
-      const eventTarget = event.target as HTMLInputElement;
+    handleInput(event: VueEvent.Input<HTMLInputElement>) {
+      const eventTarget = event.target;
       this.$emit("input", eventTarget.value);
     },
     addTodo() {
