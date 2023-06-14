@@ -4,10 +4,10 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "Index"
-}
+<script setup>
+definePageMeta({
+  layout: 'products'
+})
 </script>
 
 <style scoped>
