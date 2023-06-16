@@ -8,7 +8,10 @@ module.exports = {
     '@nuxtjs/eslint-config-typescript'
   ],
   parserOptions: {
-    ecmaVersion: 2020
+    ecmaVersion: 2017
   },
-  rules: { 'vue/multi-word-component-names': 0 }
+  rules: {
+    'vue/multi-word-component-names': 0,
+    'vue/html-self-closing': 'off'
+  }
 }

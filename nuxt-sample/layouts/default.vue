@@ -1,12 +1,12 @@
 <template>
   <div>
     <div>
-      <header>
-        <nav>
-          <NuxtLink to="/">
+      <header class="shadow-sm bg-white">
+        <nav class="container mx-auto p-4 flex justify-between">
+          <NuxtLink to="/" class="font-bold">
             Nuxt Dojo
           </NuxtLink>
-          <ul>
+          <ul class="flex gap-4">
             <li>
               <NuxtLink to="/">
                 Home
@@ -18,8 +18,13 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/product">
+              <NuxtLink to="/product" class="btn">
                 Product
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/product/abc" class="btn">
+                ABC
               </NuxtLink>
             </li>
           </ul>
@@ -27,7 +32,7 @@
       </header>
     </div>
 
-    <div>
+    <div class="container mx-auto p-4">
       <slot />
     </div>
   </div>
